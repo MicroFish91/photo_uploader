@@ -16,4 +16,5 @@ imgFile.addEventListener('change', function(e){
 imgForm.addEventListener('submit', function(e){
   e.preventDefault();
   console.log(reader.result);
+  // fetch post reader.result to database
 })
